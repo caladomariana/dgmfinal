@@ -1,0 +1,297 @@
+
+
+html{
+	scroll-behavior: smooth;
+}
+body { 
+	   background-color: white;
+	   font-family: "Montserrat", sans-serif;
+	   margin: 0;
+}
+
+
+@media (max-width: 1024px) and (min-width: 601px){
+#header{
+	padding: 70px 15px 25px;
+}
+#header h1{
+	font-weight: 300;
+	margin: 10px 0;
+	text-align: center;
+	
+	line-height: 1.2;
+	color: #800000;
+}
+#header p{
+	text-align: center;
+	color: #1F1F1F;
+	font-size: 11px;
+	margin: 45px 0px;
+}
+#port {
+	text-align: center;
+	color: #DB1A47;
+	margin-bottom: 30px;
+}
+
+/*Slideshow*/
+
+.slideshow-container {
+  width: 80%;
+  position: relative;
+  margin: auto;
+  z-index: -1;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.2s ease;
+  user-select: none;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  text-decoration: none;
+  color: white;
+
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: white;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+.show {display: block;
+}
+
+/*Eventos INDEX*/
+
+#evento {
+	margin-top: 70px;
+	max-width: 100%;
+	background-color: #FF9D52;
+}
+
+#olha {
+	padding-top: 30px;
+	margin: auto;
+	width: 70%;
+	margin-bottom: 20px;
+}
+#evento h2{
+	font-size: 25px;
+	color: #1F1F1F;
+	display: inline;
+}
+#vermais{
+	float: right;
+	font-size: 15px;
+	display: inline;
+	color: #1F1F1F;
+	text-decoration: none;
+}
+.fotos {
+	margin-top: 30px;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+.sectionfoto {
+	max-width: 49%;
+	padding: 15px;
+}
+.asdofim {
+	margin-bottom: 25px;
+}
+#footer {
+	width: 100%;
+	background-color: white;
+	height: 120px;
+}
+#esquerdo {
+	height: 100px;
+	width: 50%;
+	float: left;
+	border: none;
+}
+#direito {
+	height: 100px;
+	width: 50%;
+	float: right;
+	border: none;
+}
+.ules {
+	padding: 0;
+	text-align: center;
+	height: 100px;
+	margin: auto;
+	padding-top: 15px;
+	list-style: none;
+	color: #81222d;
+
+}
+
+/*Curso*/
+
+#caixatexto {
+	max-width: 80%;
+	margin: auto;
+	border: 2px solid #1F1F1F;
+	border-radius: 10px;
+}
+#cursotexto {
+	text-align: justify;
+	font-size: 12px;
+	padding: 25px 0px 20px;
+	width: 80%;
+	margin: auto;
+}
+#planoscurri {
+	font-size: 18px;
+	padding: 15px 0px 15px;
+	width: 80%;
+	margin: auto;
+}
+
+/*Página Eventos*/
+
+.column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+
+/*Página Informações*/
+#caixatexto {
+	max-width: 70%;
+	margin: 40px auto;
+	border: 2px solid #1F1F1F;
+	border-radius: 10px;
+}
+#cursotexto {
+	text-align: justify;
+	font-size: 12px;
+	padding: 25px 0px 20px;
+	width: 90%;
+	margin: auto;
+}
+
+/*Página Evento*/
+
+#caixatextoevento {
+	max-width: 70%;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+	margin: auto;
+}
+#caixatextoevento h3 {
+	color: #81222d;
+}
+#eventotexto {
+	text-align: justify;
+	font-size: 12px;
+	padding: 10px 0px 20px;
+	width: 80%;
+	margin: auto;
+}
+.imgevento {
+	width: 75%;
+	margin: auto;
+	text-align: center;
+	padding-top: 25px;
+}
+#footer {
+	width: 100%;
+	background-color: black;
+	margin-top:300px;
+	height: 120px;
+	display: flex;
+}
+#esquerdo {
+	flex: 50%;
+}
+#direito {
+	height: 100px;
+	width: 50%;
+	float: right;
+	border: none;
+}
+.ules {
+	padding: 0;
+	text-align: center;
+	margin: auto;
+	list-style: none;
+	color: white;
+
+}
+.ules li {
+	padding: 15px;
+}
+ .uldefinicoes {
+}
+
+.uldefinicoes li {
+	list-style: none;
+	color: #800000;
+	padding: 25px;
+	font-size: 18px;
+
+}
+}
